@@ -1,0 +1,9 @@
+uint32                                  board_ms
+uavcan.primitive.String.1.0             location
+uint32                                  pm10_env  
+uint32                                  pm25_env
+uint32                                  pm100_env
+uint32                                  aqi_pm25_us
+uint32                                  aqi_pm100_us
+float
+@extent 300 * 8

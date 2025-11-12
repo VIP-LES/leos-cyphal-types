@@ -1,0 +1,4 @@
+uint32                              board_ms
+uavcan.primitive.String.1.0         location
+float32                             light_lux 
+@extent 300 * 8
