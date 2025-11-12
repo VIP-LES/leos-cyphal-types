@@ -1,3 +1,4 @@
 uint32                                  board_ms
 uavcan.primitive.String.1.0             location
-uavcan.si.unit.pressure.Scalar.1.0      pressure
+uavcan.si.unit.temperature.Scalar.1.0   temperature
+@extent 300 * 8
