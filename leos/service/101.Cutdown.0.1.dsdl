@@ -1,0 +1,11 @@
+# This service instructs cutdown to begin
+
+@extent 64
+
+---
+
+uint8 STATUS_IN_PROGRESS    = 0 # Started successfully
+uint8 STATUS_FAILURE        = 1 # Failed to start
+uint8 status
+
+@extent 1 * 8
