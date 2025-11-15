@@ -1,0 +1,5 @@
+uint32                          board_ms
+uavcan.primitive.String.1.0     location
+int16[4]                        raw
+float32[4]                      volts
+@extent 300 * 8
