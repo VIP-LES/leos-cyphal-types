@@ -1,0 +1,4 @@
+uint32                                  board_ms
+uavcan.primitive.String.1.0             location
+uavcan.si.unit.relative_humidity.Scalar.1.0      humidity
+@extent 400 * 8
