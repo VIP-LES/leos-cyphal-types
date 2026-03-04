@@ -1,0 +1,4 @@
+uint32                                  board_ms
+uavcan.primitive.String.1.0             location
+uint16                                  uvi
+@extent 300 * 8
