@@ -1,8 +1,8 @@
 uint32                                  board_ms
 uavcan.primitive.String.1.0             location
-uavcan.si.unit.relative_humidity.Scalar.1.0      humidity
+float32                                 humidity
 uavcan.si.unit.pressure.Scalar.1.0      pressure
 uavcan.si.unit.temperature.Scalar.1.0   temperature
-uavcan.si.unit.length.Scalar.1.0         altitude
-uavcan.si.unit.electric_resistance.Scalar.1.0    Gas_Resistance
+uavcan.si.unit.length.Scalar.1.0        altitude
+float32                                 gas_resistance
 @extent 400 * 8

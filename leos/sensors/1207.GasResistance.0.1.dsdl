@@ -1,4 +1,4 @@
 uint32                                  board_ms
-uavcan.primitive.String.1.0              location
-uavcan.si.unit.electric_resistance.Scalar.1.0    Gas_Resistance
+uavcan.primitive.String.1.0             location
+float32                                 gas_resistance
 @extent 400 * 8
