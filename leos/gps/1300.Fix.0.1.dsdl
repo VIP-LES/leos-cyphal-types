@@ -1,0 +1,13 @@
+# GPS fix data published by the time-master service.
+# Fields mirror the minimal fix structure from gpsd.
+
+bool                                    fix_ok
+float64                                 lat
+float64                                 lon
+float32                                 alt_m
+float32                                 speed_mps
+float32                                 track_deg
+uint8                                   sats_used
+uint8                                   sats_visible
+uavcan.time.SynchronizedTimestamp.1.0   gps_utc
+@extent 300 * 8
