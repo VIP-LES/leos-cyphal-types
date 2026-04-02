@@ -1,4 +1,4 @@
-uint32                                  board_ms
-uavcan.primitive.String.1.0              location
-uavcan.si.unit.length.Scalar.1.0         altitude
+uavcan.primitive.String.1.0             location
+bool                                    valid
+uavcan.si.unit.length.Scalar.1.0        altitude
 @extent 400 * 8

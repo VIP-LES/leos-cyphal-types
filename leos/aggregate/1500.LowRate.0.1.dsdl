@@ -1,13 +1,8 @@
 # Low-rate sensor aggregate published once per second.
 
-uavcan.time.SynchronizedTimestamp.1.0    t_pkt
 leos.sensors.BME688.0.1                  bme688
-bool                                     bme688_valid
 leos.sensors.TSL2591.0.1                 tsl2591
-bool                                     tsl2591_valid
 leos.sensors.LTR390.0.1                  ltr390
-bool                                     ltr390_valid
 leos.sensors.PMSA003I.0.1                pmsa003i
-bool                                     pmsa003i_valid
 leos.gps.Fix.0.1                         gps_data
 @extent 2048 * 8

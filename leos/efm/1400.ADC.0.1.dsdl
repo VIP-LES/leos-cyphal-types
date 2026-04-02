@@ -1,5 +1,11 @@
-uint32                          board_ms
 uavcan.primitive.String.1.0     location
-int16[4]                        raw
-float32[4]                      volts
+bool                            valid
+float32                         adc1_ch1_diff
+float32                         adc1_ch2_sensing
+float32                         adc1_ch3_reference
+float32                         adc1_ch4_breakbeam
+float32                         adc2_ch1_diff
+float32                         adc2_ch2_sensing
+float32                         adc2_ch3_reference
+float32                         adc2_ch4_breakbeam
 @extent 300 * 8

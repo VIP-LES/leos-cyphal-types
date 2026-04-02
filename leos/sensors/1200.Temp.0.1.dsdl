@@ -1,4 +1,4 @@
-uint32                                  board_ms
 uavcan.primitive.String.1.0             location
+bool                                    valid
 uavcan.si.unit.temperature.Scalar.1.0   temperature
 @extent 300 * 8

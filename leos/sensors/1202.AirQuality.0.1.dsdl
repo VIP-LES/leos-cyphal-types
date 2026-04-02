@@ -1,5 +1,5 @@
-uint32                                  board_ms
 uavcan.primitive.String.1.0             location
+bool                                    valid
 uint32                                  pm10_env  
 uint32                                  pm25_env
 uint32                                  pm100_env
