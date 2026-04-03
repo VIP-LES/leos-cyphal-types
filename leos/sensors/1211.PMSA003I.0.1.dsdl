@@ -5,4 +5,10 @@ uint32                                  pm25_env
 uint32                                  pm100_env
 uint32                                  aqi_pm25_us
 uint32                                  aqi_pm100_us
+uint32                                  particles_03um
+uint32                                  particles_05um
+uint32                                  particles_10um
+uint32                                  particles_25um
+uint32                                  particles_50um
+uint32                                  particles_100um
 @extent 300 * 8

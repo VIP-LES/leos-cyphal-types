@@ -1,4 +1,7 @@
 uavcan.primitive.String.1.0         location
 bool                                valid
 float32                             light_lux 
+uint16                              raw_visible
+uint16                              raw_infrared
+uint32                              raw_full_spectrum
 @extent 300 * 8
