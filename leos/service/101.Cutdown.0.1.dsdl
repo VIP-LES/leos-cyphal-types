@@ -5,6 +5,7 @@
 ---
 
 uint8 STATUS_IN_PROGRESS    = 0 # Started successfully
+uint8 STATUS_FINISHED       = 2 # Process Finished
 uint8 STATUS_FAILURE        = 1 # Failed to start
 uint8 status
 
