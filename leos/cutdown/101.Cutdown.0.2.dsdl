@@ -1,0 +1,10 @@
+@sealed
+
+---
+
+uint8 STATUS_ACCEPTED            = 0
+uint8 STATUS_ALREADY_IN_PROGRESS = 1
+uint8 STATUS_DENIED              = 2
+uint8 status
+
+@sealed
