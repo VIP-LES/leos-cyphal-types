@@ -1,0 +1,7 @@
+uavcan.primitive.String.1.0     location
+bool                            valid
+float32                         adc1_ch1_diff
+float32                         adc1_ch4_breakbeam
+float32                         adc2_ch1_diff
+float32                         adc2_ch4_breakbeam
+@extent 300 * 8
