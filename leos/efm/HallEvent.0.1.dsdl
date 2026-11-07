@@ -1,0 +1,5 @@
+uint64 timestamp_us
+uint8 efm_index
+bool rising
+
+@sealed

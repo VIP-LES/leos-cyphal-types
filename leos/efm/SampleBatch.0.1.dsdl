@@ -1,0 +1,7 @@
+uint64 timestamp_us
+uint16 interval_us
+
+float32[4] efm0_diff
+float32[4] efm1_diff
+
+@sealed
