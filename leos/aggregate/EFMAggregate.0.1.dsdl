@@ -4,4 +4,4 @@ float32                       avg_sample
 float32                       min_sample
 float32                       max_sample
 uint32                        hall_events_in_interval
-@extent 400 * 8
+@sealed

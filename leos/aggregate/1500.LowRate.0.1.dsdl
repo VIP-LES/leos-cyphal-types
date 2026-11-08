@@ -5,5 +5,6 @@ leos.sensors.TSL2591.0.1                 tsl2591
 leos.sensors.LTR390.0.1                  ltr390
 leos.sensors.PMSA003I.0.1                pmsa003i
 leos.gps.Fix.0.1                         gps_data
-leos.EFM.0.1                             efm_data
-@extent 2048 * 8
+leos.aggregate.EFMAggregate.0.1[2]       efm_aggregate
+leos.aggregate.GeigerAggregate.0.1       geiger_aggregate
+@extent 2048 * 16
