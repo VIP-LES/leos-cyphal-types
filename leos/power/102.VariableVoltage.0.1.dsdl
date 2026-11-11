@@ -1,0 +1,30 @@
+# Set the MCP41100 wiper on the power board. All 8-bit codes are valid;
+# these named presets correspond to the firmware's Voltage enum.
+uint8 V17_5  = 0
+uint8 V13_95 = 1
+uint8 V11_67 = 2
+uint8 V10_02 = 3
+uint8 V7_89  = 5
+uint8 V6_09  = 8
+uint8 V5_34  = 10
+uint8 V5_04  = 11
+uint8 V4_78  = 12
+uint8 V4_17  = 15
+uint8 V3_50  = 20
+uint8 V2_67  = 32
+uint8 V1_89  = 64
+uint8 V1_47  = 128
+uint8 V1_33  = 192
+uint8 V1_25  = 255
+
+uint8 wiper_code
+
+@sealed
+
+---
+
+uint8 OK  = 0
+uint8 ERR = 1
+uint8 status
+
+@sealed
