@@ -1,0 +1,30 @@
+# Set one relay or all four relays on the sensor board.
+# The relay index is one-based; zero addresses all four relays.
+uint8 ALL = 0
+uint8 RELAY_1 = 1
+uint8 RELAY_2 = 2
+uint8 RELAY_3 = 3
+uint8 RELAY_4 = 4
+uint8 relay_index
+
+bool enabled
+
+# For ON, -1 holds the selected relays on until an OFF request; a positive
+# duration turns them off automatically after this many milliseconds.
+# Zero and other negative values are invalid for ON. OFF ignores this field.
+# A later ON request replaces the selected relays' previous auto-off deadline.
+int32 NO_AUTO_OFF = -1
+int32 auto_off_after_ms
+
+@sealed
+
+---
+
+# OK means the requested state was applied, not that the FC observed it.
+uint8 OK = 0
+uint8 INVALID_INDEX = 1
+uint8 INVALID_DURATION = 2
+uint8 FAILED = 3
+uint8 status
+
+@sealed
