@@ -1,7 +1,4 @@
 uavcan.primitive.String.1.0   location
 bool                          valid
-float32                       avg_sample
-float32                       min_sample
-float32                       max_sample
-uint32                        hall_events_in_interval
+float32                       motor_frequency
 @sealed
