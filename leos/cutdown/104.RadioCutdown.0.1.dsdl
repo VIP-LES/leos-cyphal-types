@@ -1,0 +1,6 @@
+# Request sent by the radio node after receiving a remote cutdown command.
+@sealed
+
+---
+
+@sealed
