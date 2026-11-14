@@ -1,0 +1,12 @@
+# Microseconds since boot, captured immediately after the ADC read.
+uint64 timestamp_us
+# Increments on every ADC result, even if a queue or CAN transfer drops it.
+uint32 sequence
+# Signed ADS1220 24-bit code. Channel 0 uses gain 2; channel 1 uses gain 1.
+int32 raw
+# 0 = AIN0 - AIN1; 1 = AIN2 - AIN3.
+uint8 channel
+# Bit 0 = GPIO 16 level; bit 1 = GPIO 17 level.
+uint8 hall
+
+@sealed
